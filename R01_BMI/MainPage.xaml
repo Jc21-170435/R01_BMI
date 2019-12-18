@@ -18,7 +18,7 @@
                    x:Name="tBox1" />
             <Label Text="体重を入力(kg)"  />
             <Entry MaxLength="2" Placeholder="体重を入力"
-                   y:Name="tBox2" />
+                   x:Name="tBox2" />
             <Button Text="BMIを計算する" Clicked="Button_Clicked" />
             <Label Text="ボタンを押すとBMIを計算します"  x:Name="lbl" />
 
