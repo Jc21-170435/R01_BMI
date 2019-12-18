@@ -18,8 +18,8 @@ namespace R01_BMI
             InitializeComponent();
         }
         private void Button_Clicked(object sender, EventArgs e){
-            string s1 = tBox.Text1;
-            string s2 = tBox.Text2;
+            string s1 = tBox1.Text;
+            string s2 = tBox2.Text;
             int a = int.Parse(s1)/100;
             int b = int.Parse(s2)/(a*a);
             lbl.Text = "BMIは"+b+"です。"; 
