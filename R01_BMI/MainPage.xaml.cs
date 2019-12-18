@@ -17,7 +17,6 @@ namespace R01_BMI
         {
             InitializeComponent();
         }
-
         private void Button_Clicked(object sender, EventArgs e){
              string s1 = tBox.Text1;
             string s2 = tBox.Text2;
