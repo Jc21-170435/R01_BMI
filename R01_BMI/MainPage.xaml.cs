@@ -20,10 +20,11 @@ namespace R01_BMI
         private void Button_Clicked(object sender, EventArgs e){
             string s1 = tBox1.Text;
             string s2 = tBox2.Text;
-            int a = int.Parse(s1);
-            int b = int.Parse(s2);
-            int bmi =b/((a/100)*(a/100));
-            lbl.Text = "BMIは"+bmi+"です。"; 
+            float height = float.Parse(s1);
+            float weight = float.Parse(s2);
+            float result = (weight/(height*height)) * 10000;
+            // double bmi = (double.Parse(s2)/(double.Parse(s1)*(double.Parse(s1));
+            lbl.Text = "BMIは"+result+"です。"; 
         }
     }
 }
