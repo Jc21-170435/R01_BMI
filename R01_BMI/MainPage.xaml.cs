@@ -23,8 +23,8 @@ namespace R01_BMI
             float height = float.Parse(s1);
             float weight = float.Parse(s2);
             float result = (weight/(height*height)) * 10000;
-            // double bmi = (double.Parse(s2)/(double.Parse(s1)*(double.Parse(s1));
-            lbl.Text = "BMIは"+result+"です。"; 
+            anser = Math.Round(result);
+            lbl.Text = "BMIは"+ansert+"です。"; 
         }
     }
 }
